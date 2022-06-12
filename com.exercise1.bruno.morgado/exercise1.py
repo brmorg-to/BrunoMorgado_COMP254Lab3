@@ -9,7 +9,7 @@ Implement the Java or Python code. Hint: You need subtraction to count down from
 needed to get the right answer. Check linearSum method from Week 5 examples.
 '''
 
-def positive_integer_multiplier(m, n):
+def positive_integer_multiplier(m: int, n: int):
 
     try:
         
