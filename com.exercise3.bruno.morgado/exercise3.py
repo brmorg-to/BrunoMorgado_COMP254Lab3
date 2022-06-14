@@ -46,9 +46,9 @@ def main():
         answer = has_more_vowels(string)
 
         if(answer[0]):
-            print(f'\n{string} has more vowels than consonants: {answer[1]} vowels and {answer[2]} consonants')
+            print(f'\n{string} has more vowels than consonants! {answer[1]} vowels and {answer[2]} consonants')
         else:
-            print(f'\n{string} has more consonants than vowels: {answer[2]} consonants and {answer[1]} vowels')
+            print(f'\n{string} has more consonants than vowels! {answer[2]} consonants and {answer[1]} vowels')
 
 
 if __name__ == '__main__':

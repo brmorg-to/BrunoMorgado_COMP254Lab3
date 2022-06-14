@@ -13,7 +13,8 @@ def positive_integer_multiplier(m: int, n: int):
 
     try:
         
-        if not type(m) is int or not type(n) is int:
+        if not isinstance(m, int) or not isinstance(n, int):
+        # if not type(m) is int or not type(n) is int:
             raise TypeError("\n****** Only integers are allowed ******\n")
 
         if m < 0 or n < 0:
@@ -29,11 +30,12 @@ def positive_integer_multiplier(m: int, n: int):
         print(e)
 
 def main():
-
-    x = positive_integer_multiplier(3, 2)
-
-    print(x)
-
+    print('*' * 5)
+    print(positive_integer_multiplier(3, 2))
+    print(positive_integer_multiplier(10, 10))
+    print(positive_integer_multiplier(5, 4))
+    print(positive_integer_multiplier(0, 10))
+    print('*' * 5)
 
 if __name__ == '__main__':
     main()
